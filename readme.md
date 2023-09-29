@@ -1,5 +1,4 @@
 # CODA: Temporal Domain Generalization via Concept Drift Simulator
-###### tags: `Repo README.md`
 
 ## 1. About this work
 ### Abstract
