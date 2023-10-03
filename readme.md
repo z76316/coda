@@ -24,15 +24,18 @@ However, these model-centric training strategies involve the *unnecessarily comp
 ## 3. Experiment Reproducibility
 - To reproduce the experimental results of the CODA's Correlation Predictor component on the Elec2 dataset, please follow the instruction below:
 ```
-$ bash ./classification/run_train_correlation_predictor.sh
+$ cd ./classification/
+$ bash run_train_correlation_predictor.sh
 ```
 
 - To generate data via CODA for the Elec2 dataset, please follow the instruction below:
 ```
-$ bash ./classification/run_gen_coda_data.sh
+$ cd ./classification/
+$ bash run_gen_coda_data.sh
 ```
 
 - To test the model trained on the CODA-generated data on the Elec2 dataset, please follow the instruction below:
 ```
-$ bash ./classification/run_test_coda_data.sh
+$ cd ./classification/
+$ bash run_test_coda_data.sh
 ```
